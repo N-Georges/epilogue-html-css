@@ -1,4 +1,6 @@
 body{
+    margin: 0 0%;
+    background-color: #CBC8C6;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 header{
@@ -28,4 +30,512 @@ header .banner p{
     text-transform: uppercase;
     font-size: 15px;
     color: #CBC8C6;
+}
+
+/* section intro */
+section, footer{
+    margin: 5% 15%;
+}
+
+section .intro {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 50px 350px ;
+}
+section .diamond{
+    
+}
+section .diamond ul{
+    list-style-type: none;
+}
+section .diamond ul li a{
+    border: 2px solid #6D6D6D;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 40px;
+    color: #6D6D6D;
+}
+section .text-intro {
+    color: #6D6D6D;
+}
+section .text-intro p{
+    margin-bottom: 40px;
+}
+section .text-intro a{
+    padding: 5px 25px;
+    border: 2px solid #6D6D6D;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #6D6D6D;
+    letter-spacing: 0.3em;
+}
+
+/* section card */
+ .section-card{
+    position: relative;
+    height: 100vh;
+} 
+section .img{
+    width: 48%;
+    height: 300px;
+    background: url(../images/pic01.jpg);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+section .img h3{
+    align-self: center;
+    color: aliceblue;
+}
+
+section .text-card:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 31%;  
+    width: 48%;
+}
+
+section .text-card p{
+    padding: 50px 20px;
+    margin: 0;
+}
+
+section .text-card a{
+    padding: 10px 5px;
+    margin-bottom: 50px;
+    border: 2px solid #6D6D6D;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #6D6D6D;
+    letter-spacing: 0.3em;
+    width: 80px;
+    align-self: center;
+}
+/* card 2 */
+section .img2{
+    width: 48%;
+    height: 300px;
+    background: url(../images/pic02.jpg);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+section .img2 h3{
+    align-self: center;
+    color: aliceblue;
+}
+
+section .text-card:nth-of-type(4){
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    text-align: center;
+    width: 50%;  
+    position: absolute;
+    top: 31%; 
+    right: 0; 
+    width: 48%;
+}
+
+section .text-card p{
+    padding: 50px 20px;
+    margin: 0;
+}
+
+section .text-card a{
+    padding: 10px 5px;
+    margin-bottom: 50px;
+    border: 2px solid #6D6D6D;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #6D6D6D;
+    letter-spacing: 0.3em;
+    width: 80px;
+    align-self: center;
+}
+
+/* card 3 */
+section .img3{
+    width: 48%;
+    height: 300px;
+    background: url(../images/pic03.jpg);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+}
+
+section .img3 h3{
+    align-self: center;
+    color: aliceblue;
+}
+
+section .text-card:nth-of-type(6){
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    text-align: center;
+    width: 50%;   
+    position: absolute;
+    top: 91%;
+    width: 48%;
+}
+
+section .text-card p{
+    padding: 50px 20px;
+    margin: 0;
+}
+
+section .text-card a{
+    padding: 10px 5px;
+    margin-bottom: 50px;
+    border: 2px solid #6D6D6D;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #6D6D6D;
+    letter-spacing: 0.3em;
+    width: 80px;
+    align-self: center;
+}
+/* card 4 */
+section .img4{
+    width: 48%;
+    height: 300px;
+    background: url(../images/pic04.jpg);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    right: 0;
+}
+
+section .img4 h3{
+    align-self: center;
+    color: aliceblue;
+}
+
+section .text-card:nth-of-type(8){
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    text-align: center;
+    width: 50%;   
+    position: absolute;
+    top: 91%;
+    right: 0;
+    width: 48%;
+}
+
+section .text-card p{
+    padding: 50px 20px;
+    margin: 0;
+}
+
+section .text-card a{
+    padding: 10px 5px;
+    margin-bottom: 50px;
+    border: 2px solid #6D6D6D;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #6D6D6D;
+    letter-spacing: 0.3em;
+    width: 80px;
+    align-self: center;
+}
+/* footer */
+footer{
+    text-align: center;
+    padding-top: 150px;
+    padding-left: 200px;
+    padding-right: 300px;
+    color: #6D6D6D;
+}
+footer h2{
+    letter-spacing: 5px;
+}
+footer .logo ul{
+    display: flex;
+    justify-content: center;
+    margin-top:100px ;
+}
+footer .logo ul li{
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #6D6D6D;
+}
+footer .logo ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #6D6D6D;
+}
+footer .logo ul li a :hover{
+    color: aliceblue;
+}
+footer .logo ul li :hover{
+    color: aliceblue;
+}
+footer hr{
+    width: 150px;
+    color: #6D6D6D;
+}
+footer .logo p span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer div>a {
+    color: #6D6D6D;
+    text-decoration: none;
+    border: 2px solid #6D6D6D;
+    padding: 5px 20px;
+}
+
+footer div:first-of-type{
+    margin-bottom: 100px;
+}
+
+
+@media screen and (min-width:320px) and (max-width:600px) {
+    header .banner h1{
+        font-size: 100px;
+        font-family: 'Pacifico', cursive;
+        margin-bottom: 0;
+        color: aliceblue;
+    }
+    header .banner hr{
+        margin-top: 20px;
+        width: 250px;
+    }
+    header .banner p{
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-size: 15px;
+        color: #CBC8C6;
+    }
+    section, footer{
+    margin: 0;
+}
+
+section .intro {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+section .diamond ul{
+    list-style-type: none;
+}
+section .diamond ul li a{
+    border: 2px solid #6D6D6D;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 40px;
+    color: #6D6D6D;
+}
+section .text-intro {
+    color: #6D6D6D;
+    margin-bottom: 20px;
+}
+section .text-intro p{
+    margin-bottom: 20px;
+}
+section .text-intro a{
+    padding: 0px 25px;
+    border: 2px solid #6D6D6D;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #6D6D6D;
+    letter-spacing: 0.3em;
+}
+.section-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} 
+section .img{
+    width: 50%;
+    height: 300px;
+    background: url(../images/pic01.jpg);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+section .img h3{
+    align-self: center;
+    color: aliceblue;
+}
+
+section .text-card:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    text-align: center;
+    width: 50%;
+    
+}
+
+section .text-card p{
+    padding: 50px 20px;
+    margin: 0;
+}
+
+section .text-card a{
+    padding: 10px 5px;
+    margin-bottom: 50px;
+    border: 2px solid #6D6D6D;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #6D6D6D;
+    letter-spacing: 0.3em;
+    width: 80px;
+    align-self: center;
+}
+/* card 2 */
+section .img2{
+    width: 50%;
+    height: 300px;
+    background: url(../images/pic02.jpg);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+section .img2 h3{
+    align-self: center;
+    color: aliceblue;
+}
+
+section .text-card:nth-of-type(4){
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    text-align: center;
+    width: 50%;  
+   
+}
+
+section .text-card p{
+    padding: 50px 20px;
+    margin: 0;
+}
+
+section .text-card a{
+    padding: 10px 5px;
+    margin-bottom: 50px;
+    border: 2px solid #6D6D6D;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #6D6D6D;
+    letter-spacing: 0.3em;
+    width: 80px;
+    align-self: center;
+}
+
+/* card 3 */
+section .img3{
+    width: 50%;
+    height: 300px;
+    background: url(../images/pic03.jpg);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+section .img3 h3{
+    align-self: center;
+    color: aliceblue;
+}
+
+section .text-card:nth-of-type(6){
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    text-align: center;
+    width: 50%;   
+   
+}
+
+section .text-card p{
+    padding: 50px 20px;
+    margin: 0;
+}
+
+section .text-card a{
+    padding: 10px 5px;
+    margin-bottom: 50px;
+    border: 2px solid #6D6D6D;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #6D6D6D;
+    letter-spacing: 0.3em;
+    width: 80px;
+    align-self: center;
+}
+/* card 4 */
+section .img4{
+    width: 50%;
+    height: 300px;
+    background: url(../images/pic04.jpg);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+section .img4 h3{
+    align-self: center;
+    color: aliceblue;
+}
+
+section .text-card:nth-of-type(8){
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    text-align: center;
+    width: 50%;   
+    
+}
+
+section .text-card p{
+    padding: 10px;
+    margin: 0;
+}
+
+section .text-card a{
+    padding: 10px 5px;
+    margin-bottom: 50px;
+    border: 2px solid #6D6D6D;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #6D6D6D;
+    letter-spacing: 0.3em;
+    width: 80px;
+    align-self: center;
+}
 }
